@@ -1,0 +1,66 @@
+/*** COLORS ***/
+:root {
+    --white: #fff;
+    --green: #c7cd75;
+    --purple: #b38fb1;
+    --brown: #d2b29a;
+}
+
+.container {
+    display: flex;
+}
+
+/*** BODY ***/
+body {
+    background-color: var(--white);
+    max-width: 800px;
+    margin: auto;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+/*** HEADER ***/
+
+.header {
+    flex-wrap: nowrap;
+}
+
+/*** lOGO ***/
+.header-logo {
+    /*max-width: 20%;*/
+}
+
+/*** NAVIGATION BAR ***/
+.topnav {
+    list-style: none;
+
+}
+
+.nav-element {
+    display: inline;
+    margin: 10px, 10px, 10px, 20px;
+}
+
+.nav-link { 
+   /*padding: 10px;*/
+    display: inline;
+    color: var(--purple);
+    text-transform: uppercase;
+    border: 0px none #000000;
+    padding: 10px 10px 10px 10px;
+    font: normal bold 16px 'Advent Pro',Arial,sans-serif;
+    text-decoration: none;
+    /*color: #b38fb1;*/
+    line-height: 18px;
+    letter-spacing: 1px;
+    background: transparent none repeat left top;
+}
+
+
+/*** FOOTER ***/
+footer {
+    background-color: var(--purple);
+}
