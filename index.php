@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="utf-8">
+    <title>Happiness Wellness Solutions</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- import fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Advent+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--     <header id="header" class="container header">
+        <div class="logo">
+            <img class="header-logo" src="./img/Logo_allo_kicsi.png">
+        </div>
+        <div class="container-nav-button">
+            <nav>
+                <ul class="topnav">
+                    <li class="nav-element">
+                        <a class="nav-link active" href="#" target="_self">Home</a>
+                    </li>
+                    <li class="nav-link">About</li>
+                    <li class="nav-link">Programs</li>
+                    <li class="nav-link">Services</li>
+                    <li class="nav-link">Testimonials</li>
+                    <li class="nav-link">Contact</li>
+                </ul>
+            </nav>
+            <a class="button book" href="https://square.site/book/0RS6F3FHBS92Z/happiness-health-solutions-llc">Book an appointment</a>        
+        </div>
+    </header>
+-->
+    <?php include "./header.html" ?>
+     <main>
+        <section class="intro container">
+            <div class="intro intro-greeting container container-intro">
+                <div>KEP</div>
+                <p class="intro-text">Hi, I am Dora and I teach and educate people how to regain control over their chronic or autoimmune condition on a truly holistic and natural way with no side effects. </p>
+            </div>
+            <img class="dog-picture" src='./img/dog.jpg'>
+            <div class="outro">
+                <p></p>
+            </div>
+        </section>
+        <section class="proposal">
+            <h2>Here is my proposal to you:</h2>
+            <p>             
+                I practice a holistic approach by looking not only at your physical issues but also at your emotional being and your state of mind.
+            </p>
+            <p>
+                You and I as a team, will create a plan how each topic can be addressed and best supported.
+            </p>
+            <p>
+                Our plan and its execution will create such circumstances that will naturally evoke your body’s own healing power.
+            </p>
+            <p>
+                To reach our goal we will need to use different elements from our toolbox depending on your personal challenges.
+            </p>
+            <div class="pictures container container-pictures">
+                <div class="container container-services">
+                    <img class="service-picture" src="./img/mind-soul.jpg">
+                    <a class="service-link" href="#">Mind & Soul</a>
+                </div>
+                <div class="container container-services">
+                    <img class="service-picture" src="./img/nutrition.jpg">
+                    <a class="service-link" href="#">Nutrition</a>
+                </div>
+                <div class="container container-services">
+                    <img class="service-picture" src="./img/reflexology.jpg">
+                    <a class="service-link" href="#">Reflexology</a>
+                </div>
+            </div>
+            
+            <div>
+                <a class="button" href="#">To see how we can work together please call or send me a message! Thank you!</a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<footer>a b c</footer>
+</html>
