@@ -11,10 +11,14 @@
     display: flex;
 }
 
+.bold {
+    font-weight: 600;
+}
+
 /*** BODY ***/
 body {
     background-color: var(--white);
-    /*max-width: 1300px;*/
+    /*max-width: 75rem;*/
     margin: auto;
     box-sizing: border-box;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -24,10 +28,10 @@ body {
 
 /*** HEADER ***/
 
-.header {
-    flex-wrap: nowrap;
+.container-header {
+    /*flex-wrap: nowrap;*/
     justify-content: center;
-    max-width: 80%;
+    /*max-width: 70%;*/
 }
 
 
@@ -71,13 +75,26 @@ a.active {
 
 /*** MAIN ***/
 
+/*** intro section ***/
 
 section.intro {
     margin: 2.5rem 0 0 0;
     background-color: var(--brown);
     color: var(--white);
-    max-height: 15.625rem;
 }
+
+
+img.dora-home {
+    max-width: 30%;
+    /*max-width: 5rem;*/
+    margin: auto 1rem 0 0 0;
+/*    position: absolute;
+    left: 10rem;
+    top: 2rem;
+*/
+    padding: 2rem 0 0 8rem;
+}
+
 
 section.intro div.intro {
     width: 60%;
@@ -88,17 +105,22 @@ p.intro-text {
     font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;
     color: var(--white);
     line-height: 2.375rem;
-    margin: 1.25rem 1.25rem 1.25rem 10rem;
+    /*margin: 1.25rem 1.25rem 1.25rem 10rem;*/
     text-align: justify;
+    /*padding: 1rem;*/
 
 
 }
 
 
 img.dog-picture {
-    width: 25.125rem;
-    height: 20rem;
-    margin: -1.875rem 0 0 0;
+    /*width: 25.125rem;*/
+    /*height: 16.875;*/
+    width: 27%;
+    margin: -1.875rem 0 -1.875rem 0;
+    position: absolute;
+    /*right: 5%;*/
+    right: 10rem;
 }
 
 
@@ -185,13 +207,38 @@ a.book {
 /*** FOOTER ***/
 footer {
     background-color: var(--purple);
-    margin: 2.5rem 0 0 0;
+    margin: 3.75rem auto 1.25rem auto;
+    padding: 0.625rem 0.625rem 1.25rem 0.625rem;
+    max-width: 80%;
+    color: var(--white);
+    line-height: 0.2rem;
+    font-size: 0.9rem;
+}
+
+.container-footer {
+    justify-content: space-between;
+    /*align-self: flex-end;*/
+}
+
+footer a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer div {
+    align-self: flex-end;
 }
 
 
 /*** MEDIA QUERIES ***/
-@media (min-width: 75rem) {
-    body {
+@media (min-width: 65rem) {
+/*    body {
         max-width: 90%;
     }
+*/}
+
+
+@media (min-width: 768px) {
+
 }
+
