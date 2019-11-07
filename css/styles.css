@@ -7,6 +7,21 @@
     --button-brown: #b2935b;
 }
 
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+
 .container {
     display: flex;
 }
@@ -42,34 +57,66 @@ body {
 }
 
 /*** NAVIGATION BAR ***/
-.topnav {
+ul.topnav {
     list-style: none;
     padding: 1.25rem 0 0 0;
-
-}
-
-.nav-element {
-    display: inline;
-    margin: 0.625rem, 0.625rem, 0.625rem, 1.25rem;
-}
-
-.nav-link { 
-    display: inline;
-    color: var(--purple);
+    /*color: var(--purple);*/
     text-transform: uppercase;
-    /*border: 0px none #000000;*/
-    padding: 0.625rem;
     font: normal bold 1rem 'Advent Pro',Arial,sans-serif;
-    text-decoration: none;
     line-height: 1.125rem;
     letter-spacing: 0.0625rem;
-    background: transparent none repeat left top;
+}
+
+li.nav-element {
+    display: inline;
+    margin: 0.625rem 0.625rem 0.625rem 1.25rem;
+    padding: 0.625rem;
+
+}
+
+li.active {
+    background-color: var(--green);
+}
+
+li.active a {
+    color: var(--white);
+}
+
+li.active a:hover {
+    color: var(--white);
+    text-decoration: none;
+}
+
+li.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+div.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 100rem;
+    z-index: 1;
+}
+
+div.dropdown-content a.nav-link {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.nav-link { 
+    color: var(--purple); /* has to be here to work, ul.top-nav doesn't work */
+    text-decoration: none;
     margin: 0 0 1.25rem 0;
 }
 
-a.active {
-    background-color: var(--green);
-    color: var(--white);
+.nav-link:hover {
+    color: var(--green);
+    text-decoration: underline;
 }
 
 
@@ -204,6 +251,7 @@ a.book {
 }
 
 
+
 /*** FOOTER ***/
 footer {
     background-color: var(--purple);
@@ -228,6 +276,22 @@ footer a {
 footer div {
     align-self: flex-end;
 }
+
+
+
+/*** TERMS AND CONDITIONS PAGE ***/
+.terms {
+    background-color: var(--brown);
+    color: var(--white);
+    max-width: 75%;
+    margin: 3rem auto 0 auto;
+    padding: 2rem;
+    border: 0.125rem solid var(--button-brown);
+    border-radius: 0.625rem;
+}
+
+
+
 
 
 /*** MEDIA QUERIES ***/
