@@ -1,0 +1,111 @@
+/*** ABOUT PAGE ***/
+main {
+    font-family: 'Montserrat',Arial,sans-serif;
+    font-size: 1.125rem;
+    line-height: 2rem; 
+}
+
+.about-titles {
+    color: var(--dark-green);
+    /*max-width: 40%;*/
+    /*margin: 2.5rem auto 0 auto;*/
+    font-size: 2.1rem;
+    font-weight: normal;
+    line-height: 2.5rem; 
+    text-align: center;   
+}
+
+.about-intro {
+    /*color: var(--dark-green);*/
+    max-width: 40%;
+    margin: 2.5rem auto 0 auto;
+    /*font-size: 2.1rem;*/
+    /*line-height: 2.5rem;*/
+}
+
+
+.about-intro-img {
+    max-width: 35%;
+    border-radius: 0.625rem;
+}
+
+.reasons h2 {
+    font-weight: normal;
+    max-width: 40%;
+    margin: 2rem auto 0 auto;
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.reasons ul {
+    max-width: 45%;
+    margin: 2rem auto 0 auto;
+}
+
+.reasons ul li {
+    margin: 0.5rem 0 0 0;
+    list-style-type: circle;
+}
+
+.reasons-outro {
+    font-size: 1.8rem;
+    /*max-width: 30%;*/
+    margin: 2.5rem auto 0 auto;
+}
+
+.reasons-outro p {
+}
+
+.i-am-dora {
+    background-color: var(--brown);
+    /*max-width: 90%;*/
+    margin: 0 auto 3rem auto;
+    /*font-size: 1.1rem;*/
+    padding: 0 0 0.25rem 0;
+}
+
+.i-am-dora div {
+    max-width: 75%;
+    /*text-align: center;*/
+    margin: auto;
+    line-height: 2.5rem;
+    font-size: 1.95rem;
+}
+
+div.dora-intro {
+    max-width: 65%;
+}
+
+.i-am-dora img {
+    width: 280px;
+    height: 430px;
+}
+
+.i-am-dora p {
+    font-size: 1.5rem;
+}
+
+.who-i-am {
+    max-width: 60%;
+    margin: auto;
+
+}
+
+
+.diploma-img {
+    max-width: 40%;
+    padding: 0 1rem 0 1rem;
+}
+
+.addicted {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.diploma-img-text {
+    padding: 0 2rem 0 2rem;
+}
+
+#about-book-button {
+    max-width: 35%;
+}

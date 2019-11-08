@@ -1,7 +1,9 @@
-/*** COLORS ***/
+/*** GENERAL ***/
+
 :root {
     --white: #fff;
     --green: #c7cd75;
+    --dark-green: #9ca13f;
     --purple: #b38fb1;
     --brown: #d2b29a;
     --button-brown: #b2935b;
@@ -20,15 +22,18 @@ video {
   box-sizing: border-box;
 }
 
-
-
 .container {
     display: flex;
 }
 
 .bold {
-    font-weight: 600;
+    font-weight: 800;
 }
+
+.center {
+    text-align: center;
+}
+
 
 /*** BODY ***/
 body {
@@ -117,111 +122,6 @@ div.dropdown-content a.nav-link {
 .nav-link:hover {
     color: var(--green);
     text-decoration: underline;
-}
-
-
-/*** MAIN ***/
-
-/*** intro section ***/
-
-section.intro {
-    margin: 2.5rem 0 0 0;
-    background-color: var(--brown);
-    color: var(--white);
-}
-
-
-img.dora-home {
-    max-width: 30%;
-    /*max-width: 5rem;*/
-    margin: auto 1rem 0 0 0;
-/*    position: absolute;
-    left: 10rem;
-    top: 2rem;
-*/
-    padding: 2rem 0 0 8rem;
-}
-
-
-section.intro div.intro {
-    width: 60%;
-}
-
-
-p.intro-text {
-    font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;
-    color: var(--white);
-    line-height: 2.375rem;
-    /*margin: 1.25rem 1.25rem 1.25rem 10rem;*/
-    text-align: justify;
-    /*padding: 1rem;*/
-
-
-}
-
-
-img.dog-picture {
-    /*width: 25.125rem;*/
-    /*height: 16.875;*/
-    width: 27%;
-    margin: -1.875rem 0 -1.875rem 0;
-    position: absolute;
-    /*right: 5%;*/
-    right: 10rem;
-}
-
-
-
-section.proposal {
-    font-family: 'Montserrat',Arial,sans-serif;
-    margin: 6.25rem auto 0 auto;
-    max-width: 70%;
-}
-
-section.proposal h2 {
-    text-align: center;
-    font-style: normal normal;
-    font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;
-    text-decoration: none;
-    line-height: 2rem;
-    margin: 1.25rem auto 1.25rem auto;
-    padding: 0;
-    text-transform: none;
-}
-
-section.proposal p {
-    font: normal normal 1.125rem 'Montserrat',Arial,sans-serif;
-    color: #000;
-    text-decoration: none;
-    text-align: left;
-    line-height: 2.1875rem;
-    letter-spacing: 0.0625rem;
-    margin: 0;
-    padding: 0;
-    text-transform: none;
-}
-
-div.container-pictures {
-    justify-content: space-between;
-}
-
-div.pictures {
-    margin: 5rem auto 0 auto;
-}
-
-div.container-services {
-    flex-direction: column;
-}
-
-a.service-link {
-    margin: 1rem auto 0 auto;
-    text-decoration: none;
-    color: var(--button-brown);
-    font-size: 1.75rem;
-}
-
-img.service-picture {
-    width: 14.375rem;
 }
 
 a.button {
