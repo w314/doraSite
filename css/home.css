@@ -89,6 +89,8 @@ div.pictures {
 
 div.container-services {
     flex-direction: column;
+    /*width: calc((100% - 40px) / 3);*/
+    width: 30%;
 }
 
 a.service-link {
@@ -99,5 +101,5 @@ a.service-link {
 }
 
 img.service-picture {
-    width: 14.375rem;
+    /*width: 14.375rem;*/
 }
