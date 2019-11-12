@@ -1,105 +1,99 @@
 /*** MAIN ***/
+main {
+    font: normal normal 1.3rem 'Montserrat',Arial,sans-serif;
+    /*font-family: 'Montserrat',Arial,sans-serif;    */
+}
+
 
 /*** intro section ***/
-
 section.intro {
-    margin: 2.5rem 0 0 0;
-    background-color: var(--brown);
-    color: var(--white);
+    margin: 2rem 0 0 0;
+    flex-direction: column;
 }
-
-
-img.dora-home {
-    max-width: 30%;
-    /*max-width: 5rem;*/
-    margin: auto 1rem 0 0 0;
-/*    position: absolute;
-    left: 10rem;
-    top: 2rem;
-*/
-    padding: 2rem 0 0 8rem;
-}
-
-
-section.intro div.intro {
-    width: 60%;
-}
-
-
-p.intro-text {
-    font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;
-    color: var(--white);
-    line-height: 2.375rem;
-    /*margin: 1.25rem 1.25rem 1.25rem 10rem;*/
-    text-align: justify;
-    /*padding: 1rem;*/
-
-
-}
-
 
 img.dog-picture {
     /*width: 25.125rem;*/
     /*height: 16.875;*/
-    width: 27%;
-    margin: -1.875rem 0 -1.875rem 0;
-    position: absolute;
+    /*width: 27%;*/
+    /*margin: -1.875rem 0 -1.875rem 0;*/
+    /*position: absolute;*/
     /*right: 5%;*/
-    right: 10rem;
+    /*right: 10rem;*/
+}
+
+img.dora-home {
+    width: 33%;
+    margin: 1rem auto 0 auto;
+    border-radius: 100%;
+
+}
+
+p.intro-text {
+    background-color: var(--brown);
+    color: var(--white);
+    line-height: 1.8rem;
+    /*margin: 1.25rem 1.25rem 1.25rem 10rem;*/
+    text-align: justify;
+    padding: 0.625rem;
+    /*width: 100%;*/
 }
 
 
+/*** proposal section ***/
 
 section.proposal {
-    font-family: 'Montserrat',Arial,sans-serif;
-    margin: 6.25rem auto 0 auto;
-    max-width: 70%;
+    margin: 0.625rem 0 0 0;
+    /*max-width: 70%;*/
 }
 
 section.proposal h2 {
     text-align: center;
-    font-style: normal normal;
-    font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;
+    /*font-style: normal normal;*/
+    font: inherit;
+    /*font: normal normal 1.5rem 'Montserrat',Arial,sans-serif;*/
     text-decoration: none;
-    line-height: 2rem;
+    /*line-height: 2rem;*/
     margin: 1.25rem auto 1.25rem auto;
     padding: 0;
-    text-transform: none;
+    /*text-transform: none;*/
 }
 
 section.proposal p {
-    font: normal normal 1.125rem 'Montserrat',Arial,sans-serif;
+    /*font: normal normal 1.125rem 'Montserrat',Arial,sans-serif;*/
+    font-size: 0.8rem;
     color: #000;
     text-decoration: none;
     text-align: left;
-    line-height: 2.1875rem;
-    letter-spacing: 0.0625rem;
+    line-height: 1.4rem;
+    /*letter-spacing: 0.0625rem;*/
     margin: 0;
-    padding: 0;
+    /*padding: 0;*/
     text-transform: none;
+    padding: 0 0.625rem 0 0.625rem;
+
 }
 
-div.container-pictures {
-    justify-content: space-between;
-}
-
-div.pictures {
-    margin: 5rem auto 0 auto;
-}
-
-div.container-services {
-    flex-direction: column;
-    /*width: calc((100% - 40px) / 3);*/
-    width: 30%;
-}
+/*** services section ***/
 
 a.service-link {
-    margin: 1rem auto 0 auto;
     text-decoration: none;
     color: var(--button-brown);
     font-size: 1.75rem;
+    text-align: center;
+    display: block;
 }
 
-img.service-picture {
-    /*width: 14.375rem;*/
+.service-link:hover {
+    text-decoration: underline;
+    /*color: var(--white);*/
+    color: var(--purple);
+    /*border-radius: 5%;*/
+}
+
+/*** work together button at the end of main ***/
+
+a.together {
+    font-family: 'Montserrat',Arial,sans-serif;    
+    width: 90%;
+
 }
