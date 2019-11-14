@@ -95,5 +95,5 @@ a.service-link {
 a.together {
     font-family: 'Montserrat',Arial,sans-serif;    
     width: 90%;
-
+    max-width: 360px;
 }

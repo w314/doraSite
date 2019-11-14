@@ -1,0 +1,12 @@
+
+/*** TERMS AND CONDITIONS PAGE ***/
+.terms {
+    background-color: var(--brown);
+    color: var(--white);
+    max-width: 90%;
+    margin: 3rem auto 0 auto;
+    padding: 2rem;
+    border: 0.125rem solid var(--button-brown);
+    border-radius: 0.625rem;
+}
+
