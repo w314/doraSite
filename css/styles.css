@@ -44,7 +44,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #333;
-    width: 100%;
+    width: 90%;
+    cursor: pointer;
 }
 
 /*** HEADER ***/
@@ -60,22 +61,48 @@ div.logo-nav {
 }
 
 .header-logo {
-    width: 60%;
+    width: 50%;
     margin: auto;
     display: block;
     /*margin-left:;*/
 }
 
-nav {
+#hamburger {
     position: absolute;
-    right: 1rem;
-    top: 1rem;
+    right: 2rem;
+    top: 2rem;
+    border: solid 0.0625rem var(--purple);
+    padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+    font-size: 1.5rem;
+    color: var(--purple);
 }
+
+#hamburger.hide {
+    display: none;
+}
+
+
 /*** NAVIGATION BAR ***/
+
+#nav-menu {
+    width: 250px;
+    position: absolute;
+    transform: translate(300px, 0);
+    /*display: none;*/
+    text-align: right;
+    /*flex-direction: column;*/
+    background-color: var(--white);
+    cursor: pointer;
+}
+
+#nav-menu.open {
+    transform: translate(-250px, 0);
+}
 
 ul.topnav {
     list-style: none;
-    padding: 1.25rem 0 0 0;
+    /*padding: 1.25rem 0 0 0;*/
+    margin: 0;
     /*color: var(--purple);*/
     text-transform: uppercase;
     font: normal bold 1rem 'Advent Pro',Arial,sans-serif;
@@ -84,8 +111,8 @@ ul.topnav {
 }
 
 li.nav-element {
-    display: inline;
-    margin: 0.625rem 0.625rem 0.625rem 1.25rem;
+    /*display: inline;*/
+    /*margin: 0.625rem 0.625rem 0.625rem 1.25rem;*/
     padding: 0.625rem;
 
 }
@@ -123,8 +150,8 @@ div.dropdown-content a.nav-link {
     display: block;
 }
 
-#nav-menu {
-    display: none;
+#servies-menu.show{
+    display: block;
 }
 
 .nav-link { 
@@ -145,7 +172,7 @@ a.button {
     border: 0.0625rem solid #CCCCCC;
     border-radius: 0.375rem;
     margin: 1rem auto 0 auto;
-    padding: 0.4rem;
+    padding: 0.2rem;
     text-decoration: none;
     color: var(--white);
     display: block;
